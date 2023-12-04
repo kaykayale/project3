@@ -1,0 +1,60 @@
+[
+    {
+      "_id": {"$oid": "507f1f77bcf86cd799439020"},
+      "lastName": "Greer",
+      "firstName": "Lila",
+      "wage": {"$numberDecimal": "25.00"},
+      "sessions": [
+        {
+          "sessionId": {"$oid": "507f1f77bcf86cd799439011"},
+          "sessionTitle": "Harry Potter Week",
+          "campName": "Minerva"
+        }
+      ]
+    },
+    {
+      "_id": {"$oid": "507f1f77bcf86cd799439021"},
+      "lastName": "Valdez",
+      "firstName": "Marco",
+      "wage": {"$numberDecimal": "20.00"},
+      "sessions": [
+        {
+          "sessionId": {"$oid": "507f1f77bcf86cd799439011"},
+          "sessionTitle": "Harry Potter Week",
+          "campName": "Hermes"
+        }
+      ]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439022"},
+        "lastName": "Thompson",
+        "firstName": "Teresa",
+        "wage": {"$numberDecimal": "20.00"},
+        "sessions": [
+          {
+            "sessionId": {"$oid": "507f1f77bcf86cd799439011"},
+            "sessionTitle": "Harry Potter Week",
+            "campName": "Hera"
+          }
+        ]
+      },
+      {
+        "_id": {"$oid": "507f1f77bcf86cd799439023"},
+        "lastName": "Twist",
+        "firstName": "Aisha",
+        "wage": {"$numberDecimal": "20.00"},
+        "sessions": [
+          {
+            "sessionId": {"$oid": "507f1f77bcf86cd799439011"},
+            "sessionTitle": "Harry Potter Week",
+            "campName": "Athena"
+          }
+        ]
+      }
+  ]
+  
+
+
+
+
+

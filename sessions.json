@@ -1,6 +1,7 @@
+[
 {
     "_id": {"$oid": "507f1f77bcf86cd799439011"},
-    "startDate": {"$date": "2023-12-01T00:00:00Z"},
+    "startDate": {"$date": "2023-11-29T00:00:00Z"},
     "endDate": {"$date": "2023-12-05T00:00:00Z"},
     "title": "Harry Potter Week",
     "cost": 100.00,
@@ -66,4 +67,5 @@
       {"rotationId": {"$oid": "507f1f77bcf86cd799439035"}, "title": "Wednesday Evening Rotation"}
     ]
   }
+]
   

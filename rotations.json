@@ -82,6 +82,14 @@
             "activityName": "Archery"
           }
         ]
+      },
+      {
+        "_id": {"$oid": "6574e44be61757770105dd65"},
+        "sessionId": {"$oid": "656ffcf65ca33b496eae4da8"},
+        "title": "Wednesday Morning Rotation",
+        "startTime": {"$date": "2023-12-03T09:00:00Z"},
+        "endTime": {"$date": "2023-12-03T11:00:00Z"},
+        "schedule": []
       }
   ]
   

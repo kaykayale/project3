@@ -21,7 +21,9 @@
         {
           "sessionId": {"$oid": "656ffcf65ca33b496eae4da8"},
           "sessionTitle": "Harry Potter Week",
-          "campName": "Hermes"
+          "campName": "Hermes",
+          "unitId": {"$oid": "656ffda55ca33b496eae4daa"},
+          "unitName": "Hufflepuff"
         }
       ]
     },
@@ -34,7 +36,9 @@
           {
             "sessionId": {"$oid": "656ffcf65ca33b496eae4da8"},
             "sessionTitle": "Harry Potter Week",
-            "campName": "Hera"
+            "campName": "Hera",
+            "unitId": {"$oid": "656ffd8b5ca33b496eae4da9"}, 
+            "unitName": "Ravenclaw"
           }
         ]
       },

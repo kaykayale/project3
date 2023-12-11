@@ -63,7 +63,8 @@
       {"rotationId": {"$oid": "656ffdcf5ca33b496eae4dab"}, "title": "Monday Morning Rotation"},
       {"rotationId": {"$oid": "656ffdd05ca33b496eae4dac"}, "title": "Monday Afternoon Rotation"},
       {"rotationId": {"$oid": "656ffdd25ca33b496eae4dad"}, "title": "Tuesday Morning Rotation"},
-      {"rotationId": {"$oid": "656ffdd35ca33b496eae4dae"}, "title": "Wednesday Evening Rotation"}
+      {"rotationId": {"$oid": "656ffdd35ca33b496eae4dae"}, "title": "Wednesday Evening Rotation"},
+      {"rotationId": {"$oid": "6574e44be61757770105dd65"}, "title": "Wednesday Morning Rotation"}
     ]
   }
   

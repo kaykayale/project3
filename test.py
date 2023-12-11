@@ -26,8 +26,6 @@ if __name__ == "__main__":
     # Run the pipeline.
     results = db["customers"].aggregate(usa_customers)
     # Pretty-print the results.
-    pprint(list(results))
-    # Pretty printing is nice for debugging, but not for a real application. More likely,
-    # we iterate through the results and use their properties for output.
+
     for customer in results:
         print(f"{customer['customername']} (ID {customer['_id']})")

@@ -1,70 +1,71 @@
 [
 {
-    "_id": {"$oid": "507f1f77bcf86cd799439011"},
-    "startDate": {"$date": "2023-11-29T00:00:00Z"},
+    "_id": {"$oid": "656ffcf65ca33b496eae4da8"},
+    "startDate": {"$date": "2023-12-01T00:00:00Z"},
     "endDate": {"$date": "2023-12-05T00:00:00Z"},
     "title": "Harry Potter Week",
-    "cost": 100.00,
+    "cost": {"$numberDouble": "100.7"},
     "capacity": 100,
     "staff": [
         {
-          "_id": {"$oid": "507f1f77bcf86cd799439020"},
-          "employeeId": {"$oid": "507f1f77bcf86cd799439020"},
+          "_id": {"$oid": "656ffa395ca33b496eae4d99"},
+          "employeeId": {"$oid": "656ffc745ca33b496eae4da4"},
           "campName": "Minerva",
           "roles": ["Director"]
         },
         {
-          "_id": {"$oid": "507f1f77bcf86cd799439021"},
-          "employeeId": {"$oid": "507f1f77bcf86cd799439021"},
+          "_id": {"$oid": "656ffa515ca33b496eae4d9a"},
+          "employeeId": {"$oid": "656ffc755ca33b496eae4da5"},
           "campName": "Hermes",
           "roles": ["Counselor", "Lifeguard"]
         },
         {
-          "_id": {"$oid": "507f1f77bcf86cd799439022"},
-          "employeeId": {"$oid": "507f1f77bcf86cd799439022"},
+          "_id": {"$oid": "656ffa5f5ca33b496eae4d9b"},
+          "employeeId": {"$oid": "656ffc765ca33b496eae4da6"},
           "campName": "Hera",
           "roles": ["Counselor"]
         },
         {
-          "_id": {"$oid": "507f1f77bcf86cd799439023"},
-          "employeeId": {"$oid": "507f1f77bcf86cd799439023"},
+          "_id": {"$oid": "656ffa6e5ca33b496eae4d9c"},
+          "employeeId": {"$oid": "656ffc775ca33b496eae4da7"},
           "campName": "Athena",
           "roles": ["Counselor", "Lifeguard"]
         }
       ],
     "units": [
       {
-        "_id": {"$oid": "507f1f77bcf86cd799439025"},
+        "_id": {"$oid": "656ffd8b5ca33b496eae4da9"},
         "unitName": "Ravenclaw",
-        "staffId": {"$oid": "507f1f77bcf86cd799439022"}, 
+        "staffId": {"$oid": "656ffa5f5ca33b496eae4d9b"}, 
         "staffCampName": "Hera",
         "campers": [
-          {"camperId": {"$oid": "507f1f77bcf86cd799439040"}, "camperName": "Ada"},
-          {"camperId": {"$oid": "507f1f77bcf86cd799439041"}, "camperName": "Sofia"}
+          {"camperId": {"$oid": "656ffbc15ca33b496eae4da0"}, "camperName": "Ada"},
+          {"camperId": {"$oid": "656ffbc35ca33b496eae4da1"}, "camperName": "Sofia"}
         ]
       },
       {
-        "_id": {"$oid": "507f1f77bcf86cd799439028"},
+        "_id": {"$oid": "656ffda55ca33b496eae4daa"},
         "unitName": "Hufflepuff",
-        "staffId": {"$oid": "507f1f77bcf86cd799439021"}, 
+        "staffId": {"$oid": "656ffa515ca33b496eae4d9a"}, 
         "staffCampName": "Hermes",
         "campers": [
-          {"camperId": {"$oid": "507f1f77bcf86cd799439042"}, "camperName": "Iggy"},
-          {"camperId": {"$oid": "507f1f77bcf86cd799439043"}, "camperName": "Rosie"}
+          {"camperId": {"$oid": "656ffbc45ca33b496eae4da2"}, "camperName": "Iggy"},
+          {"camperId": {"$oid": "656ffbc55ca33b496eae4da3"}, "camperName": "Rosie"}
         ]
       }
     ],
     "campers": [
-      {"camperId": {"$oid": "507f1f77bcf86cd799439040"}, "camperName": "Ada"},
-      {"camperId": {"$oid": "507f1f77bcf86cd799439041"}, "camperName": "Sofia"},
-      {"camperId": {"$oid": "507f1f77bcf86cd799439042"}, "camperName": "Iggy"},
-      {"camperId": {"$oid": "507f1f77bcf86cd799439043"}, "camperName": "Rosie"}
+      {"camperId": {"$oid": "656ffbc15ca33b496eae4da0"}, "camperName": "Ada"},
+      {"camperId": {"$oid": "656ffbc35ca33b496eae4da1"}, "camperName": "Sofia"},
+      {"camperId": {"$oid": "656ffbc45ca33b496eae4da2"}, "camperName": "Iggy"},
+      {"camperId": {"$oid": "656ffbc55ca33b496eae4da3"}, "camperName": "Rosie"}
     ],
     "rotations": [
-      {"rotationId": {"$oid": "507f1f77bcf86cd799439024"}, "title": "Monday Morning Rotation"},
-      {"rotationId": {"$oid": "507f1f77bcf86cd799439027"}, "title": "Monday Afternoon Rotation"},
-      {"rotationId": {"$oid": "507f1f77bcf86cd799439030"}, "title": "Tuesday Morning Rotation"},
-      {"rotationId": {"$oid": "507f1f77bcf86cd799439035"}, "title": "Wednesday Evening Rotation"}
+      {"rotationId": {"$oid": "656ffdcf5ca33b496eae4dab"}, "title": "Monday Morning Rotation"},
+      {"rotationId": {"$oid": "656ffdd05ca33b496eae4dac"}, "title": "Monday Afternoon Rotation"},
+      {"rotationId": {"$oid": "656ffdd25ca33b496eae4dad"}, "title": "Tuesday Morning Rotation"},
+      {"rotationId": {"$oid": "656ffdd35ca33b496eae4dae"}, "title": "Wednesday Evening Rotation"},
+      {"rotationId": {"$oid": "6574e44be61757770105dd65"}, "title": "Wednesday Morning Rotation"}
     ]
   }
 ]
